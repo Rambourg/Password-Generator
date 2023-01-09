@@ -1,4 +1,6 @@
- Password-Generator
+![screenshot ](https://user-images.githubusercontent.com/116593146/211404034-aa1a725e-68af-4e18-86ad-57f50850e1f0.png)
+                                                          Password-Generator
+ 
 This project consists in create a passaword generator using JavaScript features to achieve the proposed task.
 The basic securtiy conditions for the password generator be created are as follows:
 Present a series of prompts for password criteria
