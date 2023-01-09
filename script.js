@@ -97,16 +97,15 @@ console.log(characteresNumbersLowerUpperCase)
 function getPasswordOptions() {
   let password = ""
   for (let characteresNumbersLowerUpperCase = 0; characteresNumbersLowerUpperCase < length; characteresNumbersLowerUpperCase++) {
-    password += characteresNumbersLowerUpperCase(
-      Math.floor(Math.random() *characteresNumbersLowerUpperCase.length));{
-      return getPasswordOptions;
-  
-}
+    return password
+  }
+    console.log(password)
+
 
 
 // Function for getting a random element from an array
 function getRandom(arr) {
-  let randomNumber = []
+  let randomNumber = " ";
   for (let randomNumber = 0; randomNumber < characteresNumbersLowerUpperCase.length; randomNumber++) {
     randomNumber.push(Math.florr(math.random()*characteresNumbersLowerUpperCase))
     return randomNumber;
@@ -118,7 +117,7 @@ function getRandom(arr) {
 
   
 
-}
+    }
 
 // Function to generate password with user input
  
@@ -152,7 +151,9 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener('click', writePassword);{
-  let passwordGenerator = characteresNumbersLowerUpperCase;
-  password.value = generatePassword(length.value, characteresNumbersLowerUpperCase)
-}}}
+ let passwordGenerator = characteresNumbersLowerUpperCase;
+
+generatePassword.addEventListener('click', e => {
+ 
+
+})}
